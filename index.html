@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+    <script src="script.js" type="module"></script> 
+    <!--Modules allow us to break up our code into separate files-->
+    <!--Using type="module" we can import modules from external files-->
+</head>
+<body>
+    <div class="world" data-world> 
+        <!--The data-* attribute gives us ability to embed custom data attributes on an HTML element. You can add value to your attribute it's optional-->
+        <!--https://blog.webdevsimplified.com/2019-10/do-not-use-class-selectors-in-javascript/-->
+        <div class="score" data-score>Score : 0</div>
+        <div class="hiscore" data-hiscore>High Score : 0</div>
+        <div class="start-screen" data-start-screen>Press Any Key To Start</div>
+        <img src="ground.png" class="ground" data-ground>
+        <img src="ground.png" class="ground" data-ground    >
+        <img src="pikachu-standing.png" class="dino" data-dino>
+    </div>
+</body>
+</html>
